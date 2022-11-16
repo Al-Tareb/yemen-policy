@@ -1,0 +1,23 @@
+.our-team-main{
+    width: 100%;
+    background-color: var(--header-bg-color);
+    padding: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our-team-main .our-team-container{
+    width: 95%;
+    margin: 200px auto 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.our-team-main .our-team-container .our-team-content h2{
+    color: var(--header-color);
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.our-team-main .our-team-container .our-team-content p{
+    color: var(--header-color);
+}

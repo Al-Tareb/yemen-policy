@@ -1,0 +1,62 @@
+.how-we-are{
+    background-color: var(--white-color);
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+}
+.how-we-are .how-we-container{
+   width: 1200px;
+   margin: auto;
+}
+.how-we-are .how-we-container .how-we-title{
+    color: var(--second-title);
+    font-size: 3rem;
+}
+.how-we-are .how-we-container .how-we-paragraph{ 
+    color: #595959;
+    margin: 20px 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-size-adjust: 1;
+}
+
+
+.how-we-are .how-we-container .main-button{
+    padding: 13px 40px;
+    margin-top: 20px;
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
+    color: var(--white-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all .7s ease;
+}
+.how-we-are .how-we-container .main-button:hover{
+    background-color: var(--white-color);
+    color: var(--button-color);
+    text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+}
+@media only screen and (max-width: 1200px) {
+    .how-we-are .how-we-container{
+        width: 900px;
+     }
+}
+@media only screen and (max-width: 992px) {
+    .how-we-are .how-we-container{
+        width: 760px;
+     }
+}
+@media only screen and (max-width: 767px) {
+    .how-we-are .how-we-container{
+        width: 560px;
+     }
+     .how-we-are .how-we-container .main-button{
+        padding: 10px 30px;
+        font-size: .9rem;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .how-we-are .how-we-container{
+        width: 90%;
+     }
+}

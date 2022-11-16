@@ -1,0 +1,197 @@
+.recent-work{
+    background: var(--header-bg-color);
+    padding: 50px 20px;
+    text-align: center;
+}
+.recent-work .recent-work-container{
+  width: 1200px;
+  margin: auto;
+}
+.recent-work .recent-work-container{
+    position: relative;
+}
+.recent-work .recent-work-container h2{
+    color: var(--second-title);
+    font-size: 3rem;
+}
+.recent-work .recent-work-container .main-recent-work{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    margin-top: 20px; 
+}
+.recent-work .recent-work-container .main-recent-work .main-image{
+   position: relative;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+}
+.recent-work .recent-work-container .main-recent-work .main-image img{
+    position: absolute;
+    top: -150px;
+    left: 0;
+    height: 150%;
+    width: 100%;
+    background-size: cover;
+    transform: scale(1);
+    transition: all .5s ease;
+}
+.recent-work .recent-work-container .main-recent-work .main-image:hover  img{ 
+    transform: scale(1.1);
+    background-size: cover;
+}
+.recent-work .recent-work-container .main-recent-work .main-image .overlay{
+    position: absolute;
+    background-color: rgb(115, 77, 38, 0.3);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.recent-work .recent-work-container .main-recent-work .main-image .overlay .main-desc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 97%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.recent-work .recent-work-container .main-recent-work .main-image .overlay .main-desc h3{
+    color: var(--white-color);
+    font-size: 2.3rem;
+}
+.recent-work .recent-work-container .main-recent-work .main-image .overlay .main-desc p{
+    color: var(--white-color);
+    font-size: .9rem;
+}
+.recent-work .recent-work-container figure .sub-image .recent-sub-image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    margin-top: 8px;
+}
+.recent-work .recent-work-container figure .sub-image .recent-sub-image .figma{
+    position: relative;
+    width: 33%;
+    height: 100%;
+    overflow: hidden;  
+}
+.recent-work .recent-work-container figure .sub-image .recent-sub-image .figma:hover img{
+    transform: scale(1.1);
+    background-size: cover;
+}
+.recent-work .recent-work-container figure .sub-image .recent-sub-image .figma img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    transform: scale(1);
+    transition: all .5s ease;
+}
+.recent-work .recent-work-container figure .sub-image .recent-sub-image .figma .overlay{
+    position: absolute;
+    background-color: rgb(115, 77, 38, 0.4);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.recent-work .recent-work-container figure .sub-image .recent-sub-image .figma .overlay .sub-desc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.recent-work .recent-work-container figure .sub-image .recent-sub-image .figma .overlay .sub-desc h3{
+    color: var(--white-color);
+    font-size: 1.2rem;
+}
+.recent-work .recent-work-container figure .sub-image .recent-sub-image .figma .overlay .sub-desc p{
+    color: var(--white-color);
+    font-size: .9rem;
+}
+.recent-work .recent-work-container .page-number{
+    background-color: var(--header-bg-color);
+    color: var(--main-color);
+}
+.recent-work .recent-work-container .page-number .page-direction{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.recent-work .recent-work-container .page-number .page-direction li .page-link {
+    color: var(--main-color);
+    text-decoration: none;
+    padding: 10px;
+    font-size: .9rem;
+}
+.recent-work .recent-work-container .page-number .page-direction li .next-link i{
+    font-size: .7rem;
+}
+@media only screen and (max-width: 1200px) {
+    .recent-work .recent-work-container{
+        width: 990px;
+      }
+}
+@media only screen and (max-width: 992px) {
+    .recent-work .recent-work-container{
+        width: 760px;
+      }
+      .recent-work .recent-work-container h2{
+        font-size: 2.5rem;
+    }
+    .recent-work .recent-work-container .main-recent-work .main-image .overlay .main-desc h3{
+        font-size: 1.8rem;
+    }
+    .recent-work .recent-work-container .main-recent-work .main-image .overlay .main-desc p{
+        font-size: .8rem;
+    }
+    .recent-work .recent-work-container figure .sub-image .recent-sub-image .figma .overlay .sub-desc h3{
+        font-size: 1.1rem;
+    }
+    .recent-work .recent-work-container figure .sub-image .recent-sub-image .figma .overlay .sub-desc p{
+        font-size: .8rem;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .recent-work .recent-work-container{
+        width: 500px;
+      }
+}
+@media only screen and (max-width: 576px) {
+    .recent-work .recent-work-container{
+        width: 350px;
+      }
+    .recent-work .recent-work-container h2{
+        font-size: 2rem;
+    }
+    .recent-work .recent-work-container .main-recent-work .main-image .overlay .main-desc h3{
+        font-size: 1.2rem;
+    }
+    .recent-work .recent-work-container .main-recent-work .main-image .overlay .main-desc p{
+        font-size: .8rem;
+    }
+    .recent-work .recent-work-container figure .sub-image .recent-sub-image .figma .overlay .sub-desc h3{
+        font-size: 1.3rem;
+    }
+    .recent-work .recent-work-container figure .sub-image .recent-sub-image .figma .overlay .sub-desc p{
+        font-size: .8rem;
+    }
+    .recent-work .recent-work-container figure .sub-image .recent-sub-image{
+        flex-direction: column;
+        height: 900px;
+    }
+    .recent-work .recent-work-container figure .sub-image .recent-sub-image .figma{
+        position: relative;
+        width: 100%;
+        overflow: hidden;  
+    }
+}

@@ -1,0 +1,28 @@
+.combining-main{
+    width: 100%;
+    background-color: var(--header-bg-color);
+    padding: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.combining-main .combining-container{
+    width: 95%;
+    margin: 200px auto 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.combining-main .combining-container img{
+    width: 900px;
+}
+.combining-main .combining-container .combining-content h2{
+    color: var(--header-color);
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+}
+.combining-main .combining-container .combining-content p{
+    color: var(--header-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+}

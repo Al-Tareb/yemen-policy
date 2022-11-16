@@ -1,0 +1,67 @@
+.policy-report-section{
+    width: 100%;
+    margin: auto;
+}
+.policy-report-section .policy-report-main{
+    width: 1200px;
+    padding: 90px 0;
+    margin: auto;
+}
+.policy-report-section .policy-report-main .policy-report-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.policy-report-section .policy-report-main .policy-report-container .the-majlis{
+    width: 24%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.policy-report-section .policy-report-main .policy-report-container .the-majlis img{
+    margin: auto;
+    margin-bottom: 20px;
+    transition: all .7s ease;
+}
+ 
+.policy-report-section .policy-report-main .policy-report-container .the-majlis img:hover{
+    transform: translateY(-30px)
+}
+.policy-report-section .policy-report-main .policy-report-container .the-majlis h3{
+    text-align: center;
+    color: var(--header-color);
+}
+@media only screen and (max-width: 1200px) {
+    .policy-report-section .policy-report-main{
+        width: 990px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .policy-report-section .policy-report-main{
+        width: 760px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .policy-report-section .policy-report-main{
+        width: 560px;
+        padding: 90px 0 10px;
+    }
+    .policy-report-section .policy-report-main .policy-report-container .the-majlis{
+        width: 50%;
+        margin-bottom: 80px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .policy-report-section .policy-report-main{
+        width: 90%;
+        padding: 90px 0 10px;
+    }
+    .policy-report-section .policy-report-main .policy-report-container .the-majlis{
+        width: 100%;
+        margin-bottom: 80px;
+    }
+}

@@ -1,0 +1,145 @@
+.debriefs-section{
+    width: 100%;
+    background-color: var(--header-bg-color);
+}
+.debriefs-section .debriefs-main{
+    width: 1200px;
+    margin: auto;
+    padding: 70px 0;
+}
+.debriefs-section .debriefs-main .debriefs-container h2{
+    font-size: 3rem;
+    color: var(--header-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.debriefs-section .debriefs-main .debriefs-container .debriefs-paragraph{
+    font-size: 1rem;
+    color: var(--header-color);
+    text-align: center;
+}
+.debriefs-section .debriefs-main .debriefs-container .debriefs-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-wrap: wrap;
+}
+.debriefs-section .debriefs-main .debriefs-container .debriefs-content figure{
+    width: 32%;
+    margin-top: 50px;
+}
+.debriefs-section .debriefs-main .debriefs-container .debriefs-content .figure-shadow{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: box-shadow .4s ease;
+}
+.debriefs-section .debriefs-main .debriefs-container .debriefs-content .figure-shadow:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.debriefs-section .debriefs-main .debriefs-container .debriefs-content figure img{
+    width: 100%;
+    height: 300px;
+}
+.debriefs-section .debriefs-main .debriefs-container .debriefs-content .debriefs-desc{
+    padding: 25px;
+    margin-top: -5px;
+    background-color: white
+}
+.debriefs-section .debriefs-main .debriefs-container .debriefs-content .debriefs-desc h3{
+    font-size: 1.1rem;
+    color: var(--header-color);
+    font-weight: 600;
+    height: 70px;
+    margin-bottom: 25px;
+}
+.debriefs-section .debriefs-main .debriefs-container .debriefs-content .debriefs-desc .desc{
+    font-size: .9rem;
+    color: var(--footer-color);
+    font-weight: 700;
+    margin-bottom: 25px;
+    height: 90px;
+}
+.debriefs-section .debriefs-main .debriefs-container .debriefs-content .debriefs-desc .desc-more{
+    font-size: .8rem;
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.debriefs-section .debriefs-main .debriefs-container .debriefs-content .debriefs-desc h6{
+    font-size: .9rem;
+    color: var(--icon-color);
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: -35px;
+    margin-bottom: -20px;
+    padding-top: 20px;
+}
+.debriefs-section .debriefs-main .debriefs-container .debriefs-content .debriefs-line{
+    width: 100%;
+    height: 6px;
+    background-color: var(--icon-color);  
+}
+.debriefs-section .debriefs-main .debriefs-container .debriefs-content .debriefs-footer{
+    width: 100%;
+    height: 10px;
+    padding-top: -15px;
+    background-color: var(--main-color);
+    border-radius: 0 0 3px 3px;
+}
+.debriefs-section .debriefs-main .debriefs-container ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.debriefs-section .debriefs-main .debriefs-container ul li .page-number {
+    text-decoration: none;
+    color: var(--story-color);
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: color .7s ease;
+}
+.debriefs-section .debriefs-main .debriefs-container ul li .page-number:hover {
+    color: var(--main-color);
+}
+@media only screen and (max-width: 1200px) {
+    .debriefs-section .debriefs-main{
+        width: 990px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .debriefs-section .debriefs-main{
+        width: 760px;
+    }
+    .debriefs-section .debriefs-main .debriefs-container h2{
+        font-size: 2.5rem;
+    }
+    .debriefs-section .debriefs-main .debriefs-container .debriefs-content figure{
+        width: 48%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .debriefs-section .debriefs-main{
+        width: 560px;
+    }
+    .debriefs-section .debriefs-main .debriefs-container h2{
+        font-size: 2.2rem;
+    }
+    .debriefs-section .debriefs-main .debriefs-container .debriefs-content figure{
+        width: 48%;
+    }
+    .debriefs-section .debriefs-main .debriefs-container .debriefs-content .debriefs-desc h3{
+        font-size: 1rem;
+    }
+    .debriefs-section .debriefs-main .debriefs-container .debriefs-content .debriefs-desc .desc{
+        font-size: .8rem;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .debriefs-section .debriefs-main{
+        width: 90%;
+    }
+    .debriefs-section .debriefs-main .debriefs-container .debriefs-content figure{
+        width: 98%;
+    }
+}

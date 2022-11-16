@@ -1,38 +1,44 @@
-.App {
-  text-align: center;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: "Open Sans", sans-serif;
 }
+:root{
+--second-color: #6EC1E4;
+--header-color: #54595F;
+--header1-color: #262626;
+--header2-color: #333333;
+--footer-color: #7A7A7A;
+--story-color: #404040;
+--button-color11: #61CE70;
+--main-color: #0086A3;
+--main2-color: #011318ef;
+--icon-color: #a6a6a6;
+--description-color: #475B5B;
+--e-global-color-9584a86: #402E3D;
+--e-global-color-49419d7: #D9BFA9;
+--e-global-color-4b79203: #532D1B;
+--e-global-color-6eb2563: #c9c9c9;
+--third-color: #DD9B76;
+--e-global-color-20c5a3c: #A65A49;
+--header-bg-color: #F4F2F1;
+--button-color: #7DCDB3;
+--second-title: #606060;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+--wp--preset--color--black: #000000;
+--grey-color: #abb8c3;
+--white-color: #ffffff;
+--wp--preset--color--pale-pink: #f78da7;
+--wp--preset--color--vivid-red: #cf2e2e;
+--wp--preset--color--luminous-vivid-orange: #ff6900;
+--news-color: #fcb900;
+--wp--preset--color--light-green-cyan: #7bdcb5;
+--wp--preset--color--vivid-green-cyan: #00d084;
+--wp--preset--color--pale-cyan-blue: #8ed1fc;
+--wp--preset--color--vivid-cyan-blue: #0693e3;
+--wp--preset--color--vivid-purple: #9b51e0;
 }

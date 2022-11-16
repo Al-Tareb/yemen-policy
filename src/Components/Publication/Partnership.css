@@ -1,0 +1,141 @@
+.partnership-section{
+    width: 100%;
+}
+.partnership-section .partnership-main{
+    width: 1200px;
+    margin: auto;
+    padding: 70px 0;
+}
+.partnership-section .partnership-main .partnership-container h2{
+    font-size: 3rem;
+    color: var(--header-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+.partnership-section .partnership-main .partnership-container .partnership-paragraph{
+    font-size: 1rem;
+    color: var(--header-color);
+    text-align: center;
+}
+.partnership-section .partnership-main .partnership-container .partnership-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    flex-wrap: wrap;
+}
+.partnership-section .partnership-main .partnership-container .partnership-content figure{
+    width: 32%;
+    margin-top: 50px;
+}
+.partnership-section .partnership-main .partnership-container .partnership-content .figure-shadow{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: box-shadow .4s ease;
+}
+.partnership-section .partnership-main .partnership-container .partnership-content .figure-shadow:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.partnership-section .partnership-main .partnership-container .partnership-content figure img{
+    width: 100%;
+    height: 300px;
+}
+.partnership-section .partnership-main .partnership-container .partnership-content .partnership-desc{
+    padding: 25px;
+    margin-top: -5px;
+    background-color: white
+    
+}
+.partnership-section .partnership-main .partnership-container .partnership-content .partnership-desc h3{
+    font-size: 1.1rem;
+    color: var(--header-color);
+    font-weight: 600;
+    height: 70px;
+    margin-bottom: 25px;
+}
+.partnership-section .partnership-main .partnership-container .partnership-content .partnership-desc .desc{
+    font-size: .9rem;
+    color: var(--footer-color);
+    font-weight: 700;
+    margin-bottom: 25px;
+    height: 90px;
+}
+.partnership-section .partnership-main .partnership-container .partnership-content .partnership-desc .desc-more{
+    font-size: .8rem;
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.partnership-section .partnership-main .partnership-container .partnership-content .partnership-desc h6{
+    font-size: .9rem;
+    color: var(--icon-color);
+    font-weight: 600;
+    margin-bottom: 0px;
+    margin-top: -35px;
+    margin-bottom: -20px;
+    padding-top: 20px;
+}
+.partnership-section .partnership-main .partnership-container .partnership-content .partnership-line{
+    width: 100%;
+    height: 6px;
+    background-color: var(--icon-color);  
+}
+.partnership-section .partnership-main .partnership-container .partnership-content .partnership-footer{
+    width: 100%;
+    height: 10px;
+    padding-top: -15px;
+    background-color: var(--main-color);
+    border-radius: 0 0 3px 3px;
+}
+.partnership-section .partnership-main .partnership-container ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.partnership-section .partnership-main .partnership-container ul li .page-number {
+    text-decoration: none;
+    color: var(--story-color);
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: color .7s ease;
+}
+.partnership-section .partnership-main .partnership-container ul li .page-number:hover {
+    color: var(--main-color);
+}
+@media only screen and (max-width: 1200px) {
+    .partnership-section .partnership-main{
+        width: 990px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .partnership-section .partnership-main{
+        width: 760px;
+    }
+    .partnership-section .partnership-main .partnership-container h2{
+        font-size: 2.5rem;
+    }
+    .partnership-section .partnership-main .partnership-container .partnership-content figure{
+        width: 48%;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .partnership-section .partnership-main{
+        width: 560px;
+    }
+    .partnership-section .partnership-main .partnership-container h2{
+        font-size: 2.1rem;
+    }
+    .partnership-section .partnership-main .partnership-container .partnership-content .partnership-desc h3{
+        font-size: 1rem;
+    }
+    .partnership-section .partnership-main .partnership-container .partnership-content .partnership-desc .desc{
+        font-size: .8rem;
+    }
+}@media only screen and (max-width: 576px) {
+    .partnership-section .partnership-main{
+        width: 90%;
+    }
+    .partnership-section .partnership-main .partnership-container .partnership-content figure{
+        width: 98%;
+    }
+}

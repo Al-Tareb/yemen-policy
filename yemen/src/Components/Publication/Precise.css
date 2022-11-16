@@ -1,0 +1,23 @@
+.precise-main{
+    width: 100%;
+    background-color: var(--header-bg-color);
+    padding: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.precise-main .precise-container{
+    width: 95%;
+    margin: 200px auto 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.precise-main .precise-container .precise-content h2{
+    color: var(--header-color);
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.precise-main .precise-container .precise-content p{
+    color: var(--header-color);
+}

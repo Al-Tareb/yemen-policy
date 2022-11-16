@@ -1,0 +1,27 @@
+.footer-section{
+    width: 100%;
+}
+.footer-section .footer-main{
+    width: 900px;
+    margin: 30px auto;
+}
+.footer-section .footer-main ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-section .footer-main ul li{
+    padding: 3px 10px;
+}
+.footer-section .footer-main ul .footer-link{
+    color: var(--footer-color);
+    border-right: 1px solid var(--header-color);
+    font-weight: 700;
+}
+.footer-section .footer-main ul .footer-impressum{
+    color: var(--main-color);
+    border-right: 1px solid var(--main-color);
+}
+.footer-section .footer-main ul .footer-policy{
+    color: var(--news-color);
+}

@@ -1,0 +1,79 @@
+.we-do-section{
+    margin: 50px auto;
+}
+.we-do-section .what-we-do{
+    width: 1200px;
+    margin: auto;
+}
+.we-do-section .what-we-do h2{
+    color: var(--header-color);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.we-do-section .what-we-do .we-do-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.we-do-section .what-we-do .we-do-main .research{
+    width: 30%;
+    margin: auto;
+}
+.we-do-section .what-we-do .we-do-main .research img{
+    width: 40%;
+    margin-left: 27.5%;
+    transition: all .7s ease;
+}
+.we-do-section .what-we-do .we-do-main .research img:hover{
+    transform: translateY(-30px)
+   
+}
+.we-do-section .what-we-do .we-do-main .research .description{
+    height: 300px;
+    text-align: center;
+    line-height: 2;
+    color: var(--header-color);
+    margin-top: 10px;
+} 
+.we-do-section .what-we-do .we-do-main .research .description p:nth-child(3){
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.we-do-section .what-we-do .we-do-main .research .description p{
+    padding: 6px;
+}
+@media only screen and (max-width: 1200px) {
+    .we-do-section .what-we-do{
+        width: 990px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .we-do-section .what-we-do{
+        width: 760px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .we-do-section .what-we-do{
+        width: 560px;
+    }
+    .we-do-section .what-we-do h2{
+        font-size: 2rem;
+    }
+
+}
+@media only screen and (max-width: 576px) {
+    .we-do-section .what-we-do{
+        width: 90%;
+    }
+    .we-do-section .what-we-do .we-do-main{
+      flex-direction: column;
+    }
+    .we-do-section .what-we-do .we-do-main .research{
+        width: 90%;
+        margin: auto;
+    }
+   
+}

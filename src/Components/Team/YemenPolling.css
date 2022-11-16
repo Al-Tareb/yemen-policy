@@ -1,0 +1,104 @@
+.yemen-polling{
+    width: 100%;
+    padding: 50px;
+}
+.yemen-polling .yemen-polling-main{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.yemen-polling .yemen-polling-main .polling-left{
+    flex: 70%;
+    width: 70%;
+}
+.yemen-polling .yemen-polling-main .polling-left h2{
+    font-size: 2.5rem;
+    color: var(--header-color);
+    margin-bottom: 10px;
+}
+.yemen-polling .yemen-polling-main .polling-left p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--story-color);
+}
+.yemen-polling .yemen-polling-main .polling-left button{
+    padding: 13px 40px;
+    margin-top: 20px;
+    background-color: var(--button-color);
+    border: 1px solid var(--button-color);
+    color: var(--white-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: all .7s ease;
+}
+.yemen-polling .yemen-polling-main .polling-left button:hover{
+    background-color: var(--white-color);
+    color: var(--button-color);
+    text-shadow: 0px 0px 10px rgb(0 0 0 / 30%);
+}
+.yemen-polling .yemen-polling-main .polling-right{
+    flex: 30%;
+    width: 30%;
+    text-align: right;
+}
+.yemen-polling .yemen-polling-main .polling-right img{
+    width: 80%;
+}
+@media only screen and (max-width: 1200px) {
+    .yemen-polling .yemen-polling-main{
+        width: 990px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .yemen-polling .yemen-polling-main{
+        width: 760px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .yemen-polling .yemen-polling-main{
+        width: 560px;
+    }
+    .yemen-polling .yemen-polling-main .polling-left h2{
+        font-size: 2rem;
+    }
+    .yemen-polling .yemen-polling-main .polling-left p{
+        font-size: .9rem;
+    }
+    .yemen-polling .yemen-polling-main .polling-left button{
+        font-size: .9rem;
+    }
+    .yemen-polling .yemen-polling-main .polling-right img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .yemen-polling{
+        padding: 30px;
+    }
+    .yemen-polling .yemen-polling-main{
+        width: 100%;
+        flex-direction: column;
+    }
+    .yemen-polling .yemen-polling-main .polling-left h2{
+        font-size: 1.4rem;
+    }
+    .yemen-polling .yemen-polling-main .polling-left{
+        margin-bottom: 50px;
+        flex: 100%;
+        width: 100%;
+    }
+    .yemen-polling .yemen-polling-main .polling-left p{
+        font-size: 1rem;
+    }
+    .yemen-polling .yemen-polling-main .polling-right{
+        flex: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .yemen-polling .yemen-polling-main .polling-right img{
+        width: 60%;
+    }
+   
+}

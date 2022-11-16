@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+import React, { useState } from "react";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import Header from "./Components/Header/Header" 
+import Home from "./views/Home";
+import Team from "./views/Team";
+import Publication from "./views/Publication"
 import './App.css';
+import Footer from "./Components/Footer/Footer";
+import Kaleidoscope from "./views/Kaleidoscope";
 
 function App() {
+  const [open, setOpen]= useState(false)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Router>
+       <header>
+         <Header open={open} setOpen={setOpen}/>
+       </header>
+       <main>
+          <Routes>
+          <Route path="/" exact element={<Home />}/>
+          <Route path="/team" exact element={<Team />}/>
+          <Route path="/publication" exact element={<Publication />}/>
+          <Route path="/kaleidoscope" exact element={<Kaleidoscope />}/>
+          </Routes>
+       </main> 
+       <footer>
+           <Footer />
+       </footer>
+    </Router>
+  </>
   );
 }
 

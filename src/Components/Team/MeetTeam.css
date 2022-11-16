@@ -1,0 +1,182 @@
+.meet-team-section{
+    width: 100%;
+    margin:  auto;
+    background-color: var(--header-bg-color);
+}
+.meet-team-section .meet-team-main{
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.meet-team-section .meet-team-main h2{
+    text-align: center;
+    color: var(--header-color);
+    font-size: 3.5rem;
+    padding-top: 50px;
+}
+.meet-team-section .meet-team-main h3{
+    text-align: center;
+    color: var(--header-color);
+    font-size: 2.7rem;
+    padding: 50px;
+    margin-bottom: 20px;
+
+}
+.meet-team-section .meet-team-main .team-member-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo{
+    width: 320px;
+    height: 320px;
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo1{
+    background-image: url(../../assets/Team/TeamMember/Ahmed-AlShargabi.jpg);
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    transition: all .7s ease;
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo:hover::after{
+    opacity: .7;
+}
+
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo2{
+    background-image: url(../../assets/Team/TeamMember/amal.jpg);
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo3{
+    background-image: url(../../assets/Team/TeamMember/2Azal-Picture-YPC.jpg);
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo4{
+    background-image: url(../../assets/Team/TeamMember/avatar-01.png);
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo5{
+    background-image: url(../../assets/Team/TeamMember/3Ibrahim_Foto-1.jpg); 
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo6{
+    background-image: url(../../assets/Team/TeamMember/02pp-01.jpg);
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo7{
+    background-image: url(../../assets/Team/TeamMember/2hadil-2.jpg);
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo8{
+    background-image: url(../../assets/Team/TeamMember/Raiman-Dark-Grey-3clean-scaled.jpg); 
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo9{
+    background-image: url(../../assets/Team/TeamMember/31-2.jpg);
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo10{
+    background-image: url(../../assets/Team/TeamMember/Hafez-Profile-headshot1.jpg);
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo11{
+    background-image: url(../../assets/Team/TeamMember/MarwaBaabbad.jpg);
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo12{
+    background-image: url(../../assets/Team/TeamMember/mareike-edit.jpg);
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo13{
+    background-image: url(../../assets/Team/TeamMember/avatar-01.png);  
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo14{
+    background-image: url(../../assets/Team/TeamMember/6Redecker_Lia_cropped.jpg);
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo15{
+    background-image: url(../../assets/Team/TeamMember/4bio_picture_loay-scaled.jpg);
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo16{
+    background-image: url(../../assets/Team/TeamMember/Alhagri-scaled.jpg);
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo17{
+    background-image: url(../../assets/Team/TeamMember/fatima-pic.jpg);
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content .photo18{
+    background-image: url(../../assets/Team/TeamMember/01_Gizem_Foto-scaled.jpg);
+}
+
+.meet-team-section .meet-team-main .team-member-container .team-member-content h4{
+   font-size: 1rem;
+   color: var(--header-color);
+   text-align: center;
+   margin-top: 20px;
+}
+.meet-team-section .meet-team-main .team-member-container .team-member-content p{
+    font-size: 1rem;
+    height: 40px;
+    width: 290px;
+    margin: 20px auto;
+    text-align: center;
+    color: var(--description-color);
+ }
+ .meet-team-section .meet-team-main .team-member-container .team-member-content .social-media{
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    color: var(--icon-color);
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+ }
+ .meet-team-section .meet-team-main .team-member-container .team-member-content .social-media i{
+    cursor: pointer;
+ }
+ .meet-team-section .meet-team-main .management-title{
+    text-align: center;
+ }
+ @media only screen and (max-width: 1200px) {
+    .meet-team-section .meet-team-main{
+        width: 990px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .meet-team-section .meet-team-main{
+        width: 990px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .meet-team-section .meet-team-main{
+        width: 760px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .meet-team-section .meet-team-main{
+        width: 90%;
+        margin: auto;
+    }
+    .meet-team-section .meet-team-main .team-member-container{
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .meet-team-section .meet-team-main{
+        width: 90%;
+        margin: auto;
+    }
+    .meet-team-section .meet-team-main h2{
+        font-size: 2.3rem;
+    }
+    .meet-team-section .meet-team-main h3{
+        font-size: 1.8rem;
+        padding: 20px;
+    }
+    .meet-team-section .meet-team-main .team-member-container{
+        justify-content: center;
+    }
+    .meet-team-section .meet-team-main .team-member-container .team-member-content .photo{
+        width: 300px;
+        height: 300px;
+        background-position: top center;
+        background-size: cover;
+        position: relative;
+    }
+}

@@ -1,0 +1,43 @@
+.what-we-do{
+    margin: 50px auto;
+}
+.what-we-do h2{
+    color: var(--header-color);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.what-we-do .we-do-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.what-we-do .we-do-main .research{
+    width: 25%;
+    margin: auto;
+}
+.what-we-do .we-do-main .research img{
+    width: 45%;
+    margin-left: 27.5%;
+    transition: all .7s ease;
+}
+.what-we-do .we-do-main .research img:hover{
+    transform: translateY(-30px)
+   
+}
+.what-we-do .we-do-main .research .description{
+    height: 300px;
+    text-align: center;
+    line-height: 2;
+    color: var(--header-color);
+    margin-top: 10px;
+} 
+.what-we-do .we-do-main .research .description p:nth-child(3){
+    border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.what-we-do .we-do-main .research .description p{
+    padding: 6px;
+}
